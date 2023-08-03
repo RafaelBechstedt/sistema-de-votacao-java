@@ -6,7 +6,7 @@ public class PessoaCandidata extends Pessoa {
   private int votos;
 
   /**
-   * Contrutor
+   * Constructor.
    */
   public PessoaCandidata(String nome, int numero) {
     super(nome);
