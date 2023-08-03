@@ -8,7 +8,7 @@ public class PessoaEleitora extends Pessoa {
    * Constructor.
    */
   public PessoaEleitora(String nome, String cpf) {
-    super(nome);
+    super.setNome(nome);
     this.cpf = cpf;
   }
 
